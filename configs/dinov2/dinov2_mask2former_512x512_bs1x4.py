@@ -1,6 +1,6 @@
 # dataset config
 _base_ = [
-    "../_base_/datasets/ArteagaDataset-Panoramic.py",
+    "../_base_/datasets/ade20k.py",
     "../_base_/default_runtime.py",
     "../_base_/models/dinov2_mask2former.py"]
 
