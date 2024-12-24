@@ -1,9 +1,9 @@
 # dataset config
 _base_ = [
-    "../_base_/datasets/dg_gta_512x512.py",
+    "../_base_/datasets/ArteagaDataset-Panoramic.py",
     "../_base_/default_runtime.py",
-    "../_base_/models/dinov2_mask2former.py"
-]
+    "../_base_/models/dinov2_mask2former.py"]
+
 train_pipeline = [
     dict(type="LoadImageFromFile"),
     dict(type="LoadAnnotations"),
